@@ -1,0 +1,19 @@
+\usepackage[most]{tcolorbox}
+\usepackage{newunicodechar}
+\newunicodechar{°}{\ensuremath{^\circ}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{·}{\ensuremath{\cdot}}
+\usepackage{sectsty}
+\definecolor{navy}{HTML}{1E2761}
+\allsectionsfont{\sffamily\color{navy}}
+\tcbset{enhanced, breakable, boxrule=0.6pt, arc=2mm, left=6pt, right=6pt, top=4pt, bottom=4pt, before skip=10pt, after skip=10pt}
+\newtcolorbox{keyresult}{colback=blue!4, colframe=blue!55!black}
+\newtcolorbox{example}{colback=green!4, colframe=green!45!black}
+\newtcolorbox{further}{colback=violet!4, colframe=violet!60, borderline={0.6pt}{0pt}{violet!60,dashed}, frame hidden}
+\newtcolorbox{aside}{colback=gray!6, colframe=gray!50}
+\newtcolorbox{reading}{colback=yellow!8, colframe=yellow!55!black}
+\newtcolorbox{problem}{colback=gray!3, colframe=navy, boxrule=0pt, leftrule=2.5pt, sharp corners}
+\usepackage{caption}
+\captionsetup{font=small, labelfont=bf, width=0.92\textwidth}
+\usepackage{float}
+\floatplacement{figure}{htbp}
